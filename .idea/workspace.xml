@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c72d047-59cf-41a0-b14b-7964f9f7d982" name="Changes" comment="inital applicaiton setup">
+    <list default="true" id="5c72d047-59cf-41a0-b14b-7964f9f7d982" name="Changes" comment="\service class implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/controller/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/controller/LogInController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aditya0721"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aditya0721&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aditya0721/BankingSystem.git",
-    "accountId": "e9e63795-d703-4c84-bdbe-9a8c5aee12ca"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aditya0721/BankingSystem.git&quot;,
+    &quot;accountId&quot;: &quot;e9e63795-d703-4c84-bdbe-9a8c5aee12ca&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -50,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -66,6 +69,20 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="Registration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,7 +101,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720801859580</updated>
       <workItem from="1720801860645" duration="1290000" />
+      <workItem from="1720861908242" duration="622000" />
+      <workItem from="1720881812727" duration="430000" />
+      <workItem from="1720883408508" duration="2718000" />
     </task>
+    <task id="LOCAL-00001" summary="\service class implementation">
+      <option name="closed" value="true" />
+      <created>1720861932803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720861932803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital applicaiton setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital applicaiton setup" />
+    <MESSAGE value="\service class implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="\service class implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

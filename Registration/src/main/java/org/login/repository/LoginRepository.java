@@ -4,5 +4,5 @@ import org.login.dto.LoginDTO;
 
 public interface LoginRepository {
 
-    public LoginDTO getDatafromDatabase(LoginDTO loginDTO);
+    public LoginDTO getUserInfoFromUsername(LoginDTO loginDTOFromServiceLayer);
 }
