@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c72d047-59cf-41a0-b14b-7964f9f7d982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/controller/LogInController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="5c72d047-59cf-41a0-b14b-7964f9f7d982" name="Changes" comment="inital applicaiton setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/repository/LoginRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Registration/src/main/java/org/login/service/LoginServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Aditya0721"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Aditya0721/BankingSystem.git",
+    "accountId": "e9e63795-d703-4c84-bdbe-9a8c5aee12ca"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2j9agi0DWFHGmnZtUs6enfRKvG6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,6 +89,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inital applicaiton setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="inital applicaiton setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
