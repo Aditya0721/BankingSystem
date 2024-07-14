@@ -1,7 +1,7 @@
 package org.login.service;
 
 import org.login.dto.LoginDTO;
-import org.login.repository.LoginRepositoryImpl;
+import org.login.repository.*;
 
 public class LoginServiceImpl implements LoginService {
     /*
@@ -10,12 +10,11 @@ public class LoginServiceImpl implements LoginService {
     *3. use the data for your business logic
     *4. rerun it back to the controller class
     */
+    private LoginRepository loginRepository = new LoginRepositoryImpl();
     @Override
     public boolean login(LoginDTO loginDTOFromController) {
 
         // service layer to get the data from database will take help of a method defined in one of the classes of a persistance layer. because persistance layer can only talk with database
-
-        LoginRepositoryImpl loginRepository = new LoginRepositoryImpl();
 
         LoginDTO loginDTOFromPersistence = loginRepository.getUserInfoFromUsername(loginDTOFromController);
 
@@ -26,5 +25,10 @@ public class LoginServiceImpl implements LoginService {
         else{
             return false;
         }
+    }
+    @Override
+    public void updatePassword(LoginDTO loginDTO){
+
+        loginRepository.updatePasswordUsingUsername(loginDTO);
     }
 }

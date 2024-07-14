@@ -10,10 +10,13 @@ public class Application {
         String name = sc.nextLine();
         System.out.println("Enter your password: ");
         String password = sc.nextLine();
+        System.out.println("Update your new password");
+        String updatePassword = sc.nextLine();
 
         LoginDTO loginDTO = new LoginDTO(name, password);
         LogInController logInController = new LogInController();
 
         logInController.logIn(loginDTO);
+        logInController.updatePassword(new LoginDTO(name, updatePassword));
     }
 }

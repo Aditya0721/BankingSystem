@@ -2,6 +2,7 @@ package org.login.repository;
 
 import org.login.dto.LoginDTO;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,5 +25,22 @@ public class LoginRepositoryImpl implements LoginRepository {
         LoginDTO loginDTOFromPersistenceLayer = new LoginDTO(userName, password);
 
         return loginDTOFromPersistenceLayer;
+    }
+
+    public void updatePasswordUsingUsername(LoginDTO loginDTO){
+        Map<String, String> database = new HashMap<String, String>();
+
+        database.put("Aditya", "Aditya123");
+        database.put("Rajan", "Rajan123");
+        database.put("Tanuja", "Tanuja123");
+        System.out.println("database before update");
+        System.out.println(Arrays.asList(database));
+
+        String newPassword = loginDTO.getPassword();
+        String userName = loginDTO.getUsername();
+        database.put(userName, newPassword);
+        System.out.println("database after update");
+        System.out.println(Arrays.asList(database));
+
     }
 }
